@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/null-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>WildSave</title>
+</head>
+<body>
+    <header class="animate__animated animate__slideInDown">
+        <a href="#" class="header-logo"><img class="header-logo__image" src="img/logo.png" alt="Лого"></a>
+        <button type="button" class="header-burger"><img class="burger-image" src="img/burger.png" alt=""></button>
+        <nav class="header-navigation">
+            <ul class="header-navigation__list">
+                <li class="header-navigation__list__item"><a href="#about" class="header-navigation__list__item__link">О центре</a></li>
+                <li class="header-navigation__list__item"><a href="#news" class="header-navigation__list__item__link">Новости</a></li>
+                <li class="header-navigation__list__item"><a href="#support" class="header-navigation__list__item__link">Помочь фонду</a></li>
+                <li class="header-navigation__list__item"><a href="#galery" class="header-navigation__list__item__link">Наши животные</a></li>
+                <li class="header-navigation__list__item map-item"><a href="#map" class="header-navigation__list__item__link">Как нас найти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="title">
+            <div class="container">
+                <div class="title-text">
+                    <h1 class="title-text__name">Центр реабилитации диких животных</h1>
+                    <p class="title-text__subscription">Центр «WildSave» занимается реабилитацией и реинтродукцией диких животных, то есть подготовкой и возвращением в природу диких животных, пострадавших в первую очередь от антропогенных факторов.</p>
+                    <p class="title-text__contact">Если вы нашли дикое животное, которому нужна помощь, свяжитесь с нашими специалистами по телефону горячей линии:</p>
+                    <a href="tel: +78888888888" class="title-text__contact__tel">+7(888) 888-88-88</a>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about__animals">
+                <div class="about__animals__block quantity animate__animated animate__slideInLeft">
+                    <h3>52 Животных</h3>
+                    <p>В реабилитационном центре находится более 50 диких животных и хищных птиц</p>
+                </div>
+                <div class="about__animals__block healing animate__animated animate__slideInRight">
+                    <h3>Лечение и реаблитация</h3>
+                    <p>В Центре осуществляется содержание, реабилитация, лечение, карантинирование, выпуск в природу животных и птиц</p>
+                </div>
+            </div>
+            <div class="about__main">
+                <img src="img/fox.png" alt="fox" class="about__main__image">
+                <div class="about__main__text">
+                    <p>Благотворительный фонд помощи животным «WildSave» — центр реабилитации диких животных и птиц.  Мы занимаемся лечением, реабилитацией, подготовкой к выпуску и выпуском в естественную среду обитания, если это представляется возможным. В наш Центр на лечение и реабилитацию поступают дикие животные и птицы, пострадавшие по вине человека или по естественным причинам, многие из которых впоследствии не могут быть выпущены обратно в природу. Мы стараемся помочь каждому из них и дать второй шанс на жизнь. Те же, кто потерял надежду на свободу из-за полученных травм, остаются с нами на долгие годы.</p>
+                    <p>Животные прошедшие полный курс лечения и адаптации отпускаются на волю в естественную для них среду обитания — в дикую природу.</p>
+                </div>
+            </div>
+        </section>
+        <section class="news" id="news">
+            <h2>Последние новости</h2>
+            <ul class="news__list">
+                <li class="news__list__item">
+                    <p class="news__list__item__date">25.09.2024</p>
+                    <a href="#" class="news__list__item__title">Ворон с неестественно вывернутой шеей</a>
+                    <p class="news__list__item__description">Молодая пара, прогуливаясь в парке в выходной день, нашла пострадавшую птицу.</p>
+                    <button type="button" class="read_more button" data-bs-toggle="modal" data-bs-target="#modal1">
+                        Читать далее..
+                    </button>
+                    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                      <div class="modal-dialog .modal-dialog-scrollable .modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modalLabel">Ворон с неестественно вывернутой шеей</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, repellendus fugit? Vero culpa, neque tempore officiis veritatis deserunt blanditiis molestiae consequuntur ipsam enim facilis! Repudiandae consequuntur in ea quo vitae omnis quibusdam mollitia cupiditate numquam. Quidem voluptates quae aliquam totam a fugiat nobis? Adipisci quod maxime modi reprehenderit nihil, cupiditate cumque doloremque est maiores eaque quisquam dolores omnis minima, qui doloribus? Quibusdam corporis vitae quam ea natus placeat. Quos sint iure sit! Illum doloribus, adipisci, natus et ab dolor neque ratione optio aperiam, mollitia animi dolorem cupiditate placeat perspiciatis aspernatur? Deserunt obcaecati dolorum velit a, totam molestiae, cupiditate et eos quisquam vel dignissimos reiciendis voluptate adipisci praesentium sed ipsa dolore quae. Rerum sit, praesentium aliquam nihil atque sed ullam quasi dolor explicabo magni totam nesciunt error eos temporibus exercitationem minima laudantium beatae, fugiat dolore quaerat nisi excepturi! Facilis itaque fugit expedita atque accusamus rem deleniti magnam repudiandae unde voluptates eaque quidem commodi doloribus veritatis maxime nam, debitis nesciunt incidunt nemo? Optio harum molestias vel non? Impedit quod minus repellat cupiditate ea laudantium nesciunt excepturi corporis rerum accusamus corrupti, cum quaerat odio dolore veniam ratione tempore recusandae labore nulla ipsa mollitia consequuntur vero sequi! Vitae nemo placeat in praesentium quo officia alias natus neque debitis nihil ipsam, quae nostrum quos accusamus veritatis deserunt beatae animi perspiciatis dolores minima commodi! Possimus eius reprehenderit expedita mollitia, dolor pariatur non consequatur consequuntur quibusdam doloribus iure, impedit blanditiis quod cupiditate ad. Quisquam corporis tempore quaerat rem provident. Vel nobis provident atque molestiae adipisci dolorem animi maxime non, omnis perferendis aliquam quidem quia doloremque maiores cum nihil, quas, at ratione odio deserunt. Sapiente dolor obcaecati atque maiores, culpa incidunt minima id, soluta voluptatum laborum saepe doloribus voluptatibus. Fugiat consectetur ut provident suscipit corrupti, magnam ducimus blanditiis laborum mollitia maxime illo deserunt sed est? Fugiat saepe atque error? Aperiam cupiditate ab sequi repellat enim at cumque repellendus numquam quaerat unde, dolore perspiciatis molestias quidem tempora modi, consequuntur excepturi. Odio dolorum commodi ex distinctio, fugiat consectetur nesciunt maxime error ipsam repellendus similique deleniti quam est corporis ab cumque exercitationem delectus! Tenetur, esse! Vitae ea distinctio voluptates, quibusdam, corrupti nobis quod recusandae eaque officia sit a veritatis magnam maiores et atque, dicta quia necessitatibus perspiciatis illum doloremque architecto. Qui deleniti laboriosam ratione modi accusamus voluptatum, veritatis necessitatibus repudiandae ducimus earum nostrum, sunt quam et nam eaque dolorem alias obcaecati numquam cupiditate! Perspiciatis quae, adipisci, laudantium alias provident quis aperiam velit officia ipsum optio qui, nostrum esse aliquid! Alias iste incidunt rem quasi a voluptate expedita quo fuga pariatur dolor, omnis nobis tenetur sit odio placeat corrupti officiis distinctio provident, illum ut et! Quas, ipsa cumque cupiditate doloribus quae mollitia quo ea cum fugit quibusdam nesciunt deleniti vitae asperiores distinctio officia labore maxime repellendus praesentium eveniet qui commodi itaque deserunt incidunt doloremque? Quasi qui molestias, sapiente debitis dolor nihil blanditiis sint necessitatibus distinctio in culpa iure aut placeat vel fuga accusantium praesentium ea quod nam! Vel facere sequi nobis repellendus, facilis, possimus, perferendis deleniti nemo accusamus iste tempora? Dolorum, deserunt.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                            <button type="button" class="btn btn-primary" data-bs-target="#modal2" data-bs-toggle="modal">Читать далее</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+                <li class="news__list__item">
+                    <p class="news__list__item__date">25.09.2024</p>
+                    <a href="#" class="news__list__item__title">Совсем необычная и очень сложная история спасения. Лосëнок из сарая в Кинешме</a>
+                    <p class="news__list__item__description">В «WildSave» позвонили и обратились с просьбой вывезти в лес лосëнка. </p>
+                    <button type="button" class="read_more button" data-bs-toggle="modal" data-bs-target="#modal2">
+                        Читать далее..
+                    </button>
+                    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                      <div class="modal-dialog .modal-dialog-scrollable .modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modalLabel">Лосëнок из сарая в Кинешме</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, consectetur numquam optio saepe ab explicabo dolorem voluptatibus nam corporis deleniti minus ullam esse. Voluptates, quibusdam fugiat possimus eligendi nemo nulla, ullam commodi exercitationem nostrum nisi, quas distinctio architecto sunt corrupti vel dicta aspernatur qui? Cum error perspiciatis voluptate nam accusantium voluptas! Veritatis eligendi placeat error. Voluptates provident laborum, sint explicabo animi temporibus odit cum rem mollitia veniam delectus culpa ipsum architecto, aperiam dolorem modi saepe ullam officia aliquam dolorum facilis! Libero in harum vel eos possimus tempora, corrupti unde iure omnis veniam aliquid ad hic similique autem magnam doloremque cupiditate accusantium, minus voluptates. Reiciendis cumque sint quam officia laborum id, similique, repellendus impedit consequuntur cum itaque perspiciatis, eligendi voluptatum. Libero nisi, vero est consequuntur sint cum quos id ea inventore iste quis blanditiis vitae cupiditate modi quisquam tempora quidem alias, tenetur, quo nesciunt facere! Odio quidem maiores neque error natus!</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                            <button type="button" class="btn btn-primary" data-bs-target="#modal3" data-bs-toggle="modal">Читать далее</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+                <li class="news__list__item">
+                    <p class="news__list__item__date">25.09.2024</p>
+                    <a href="#" class="news__list__item__title">Спасение второго лосëнка за неделю</a>
+                    <p class="news__list__item__description">Сегодня жители были обеспокоены появлением лесного жителя у своих домов.</p>
+                    <button type="button" class="read_more button" data-bs-toggle="modal" data-bs-target="#modal3">
+                        Читать далее..
+                    </button>
+                    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                      <div class="modal-dialog .modal-dialog-scrollable .modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modalLabel">Спасение второго лосëнка за неделю</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque mollitia excepturi tempora aperiam ut sunt. Enim incidunt tempora eligendi iste possimus accusamus consequuntur ut doloribus nesciunt deserunt velit fugit magni maxime, tempore deleniti repellendus quaerat officia. Quos, voluptatem? Quisquam laborum ab, tempora iure enim eligendi repudiandae rerum natus maxime corrupti, odit velit maiores quas nulla vero voluptatem mollitia architecto. Adipisci obcaecati beatae id eius, sit quisquam fugit animi. Repellat id esse repellendus natus in vero dolorum eum asperiores earum nulla sapiente ipsum aperiam nesciunt pariatur eligendi quidem velit aliquam ratione labore cupiditate facilis, sed cum quo recusandae! Voluptate, consequatur cupiditate. Laborum at exercitationem aliquid nam doloribus in eaque quisquam fuga, quas deleniti similique numquam sint mollitia. Blanditiis, odio assumenda, consequuntur enim laudantium dicta magni nostrum saepe tenetur incidunt pariatur recusandae quos alias culpa quasi fuga quas dolorem repudiandae ipsa impedit. Cupiditate, sunt pariatur. Voluptatibus ratione laborum quia libero reiciendis commodi fugit esse autem vel, iure fugiat placeat, quo praesentium alias quas omnis magnam at laboriosam magni beatae labore ad? Exercitationem iure molestiae reprehenderit sint! Laboriosam quos repudiandae ducimus blanditiis excepturi vitae temporibus eveniet fuga numquam facere delectus officia, quam quisquam laborum! Vero, sed commodi explicabo voluptatibus similique quod, officia ad, ea possimus labore sunt iusto suscipit necessitatibus dolor iste? Architecto non, nostrum quaerat pariatur nobis totam maiores asperiores eum magnam quo, animi quae ipsa corrupti consequatur itaque doloribus, delectus explicabo vel ipsum voluptas ducimus assumenda laborum quos odio? Magni, in atque eaque asperiores excepturi quidem labore molestiae velit quo minima est omnis culpa natus delectus saepe, fugit quam ipsum commodi adipisci cum expedita architecto aperiam praesentium deserunt. Voluptatum minus corporis nulla tempore, omnis quibusdam quam cumque reprehenderit perferendis. Quisquam laborum iure placeat aperiam architecto, asperiores pariatur provident molestias officiis consectetur. Aut molestiae alias autem minus iusto exercitationem veritatis deleniti accusamus.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="support" id="support">
+            <div class="support__info">
+                <h2 class="support__title">Поддержать нашу миссию и продолжить спасать жизни диких животных.</h2>
+                <p class="support__subtitle">
+                    Для ежедневной работы фонда очень важна Ваша поддержка! Даже небольшое пожертвование может сохранить жизнь!</p>
+                <a href="#support__form" data-bs-toggle="modal" class="fond_support button">Помочь фонду</a> 
+                <div class="modal fade" id="support__form" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Помощь фонду WildSave</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body c">
+                        <form id="donationForm">
+                            <div class="mb-6 pb-3">
+                                <label for="inputName" class="form-label">Ваше имя</label>
+                                <input type="text" class="form-control" id="inputName" required>
+                            </div>
+                            <div class="mb-6 pb-3">
+                                <label for="inputEmail" class="form-label">Адрес электронной почты</label>
+                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" required>
+                                <div id="emailHelp" class="form-text">Данные защищены.</div>
+                            </div>
+                            <div class="mb-6 pb-3">
+                                <label for="inputSumm" class="form-label">Сумма пожертвования (руб)</label>
+                                <input type="number" class="form-control" id="inputSumm" required>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
+                        <button type="button" class="btn btn-primary text-white" id="submitBtn">Перейти к оплате</button>
+                    </div>
+                    </div>
+                  </div>
+                </div>   
+            </div>
+        </section>
+        <section class="gallery" id="galery">
+            <div class="container">
+            <h2 class="gallery__title">Животные находящиеся на лечении в центре</h2>
+            <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/wolf1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Волчица Маша</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, mollitia.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/olen.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Олень Саша</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, mollitia.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/lisa.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Лиса Таня</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, mollitia.</p>
+                    </div>
+                  </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+        </section>
+        <section class="find" id="map">
+            <h2 class="find__title">Как нас найти?</h2>
+            <div class="find__map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A686687b1a5cb32e3b6e91e390c980872626cc5c9d6c32a049097cde15ec7497c&amp;width=1000&amp;height=600&amp;lang=ru_RU&amp;scroll=true;"></script>
+            </div>
+            <div class="find__map__small"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A686687b1a5cb32e3b6e91e390c980872626cc5c9d6c32a049097cde15ec7497c&amp;width=500&amp;height=300&amp;lang=ru_RU&amp;scroll=true;"></script></div>
+        </section>
+        <footer>
+            <p>Copyright © 2024 WildSave</p>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script defer src="./js/script.js"></script>
+  </body>
+</html> 
+
+
+
