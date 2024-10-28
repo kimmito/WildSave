@@ -88,9 +88,13 @@ a{
     padding: 12px;
 }
 .header-navigation__list__item__link:hover{
-    background-color: rgba(255, 255, 255, 0.021);
+    background-color: rgba(49, 33, 13, 0.178);
     border: 2px dotted rgba(39, 24, 3, 0.911);
     color: #131313;
+}
+.header-navigation__list__item__link:active{
+    background-color: rgba(49, 33, 13, 0.274);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
 .title {
@@ -276,9 +280,16 @@ a{
 a.news__list__item__title{
     color: rgb(243, 240, 229)
 }
+.read_more{
+    color: rgb(138, 138, 138);
+}
 .read_more:hover{
     color: rgb(243, 240, 229);
     background-color: #302514be;
+}
+.read_more:active{
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    background-color: #302514d3;
 }
 
 .support{
@@ -580,7 +591,3 @@ footer p{
     }
 }
 
-
-
-/* 
-бургер на всю ширину с css-animation*/
