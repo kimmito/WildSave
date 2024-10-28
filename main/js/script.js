@@ -15,16 +15,5 @@ document.addEventListener('DOMContentLoaded', function() {
             nav.classList.remove('burger-active');
         }
     });
-    document.getElementById('submitBtn').addEventListener('click', function() {
-        const name = document.getElementById('inputName').value.trim();
-        const email = document.getElementById('inputEmail').value.trim();
-        const sum = document.getElementById('inputSumm').value.trim();
-    
-        if (!name || !email || !sum) {
-            alert('Пожалуйста, заполните все поля формы.');
-            return;
-        }
-        window.location.href = 'payer.html';
-    });
 });
 
